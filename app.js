@@ -29,7 +29,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 //TODO
-mongoose.connect("mongodb://localhost:27017/userDB");
+mongoose.connect("mongodb+srv://admin-dalesh:Test123@cluster0.rcb3ejh.mongodb.net/userDB");
 
 
 // const userSchema = {
